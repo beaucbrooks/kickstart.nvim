@@ -99,6 +99,7 @@ require('lazy').setup({
     },
     config = function()
       require("nvim-tree").setup {}
+      vim.keymap.set('n', '<leader>ee', ':NvimTreeToggle<CR>')
     end,
   },
 
